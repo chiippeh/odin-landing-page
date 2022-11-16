@@ -5,53 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <title>Odin Landing Page</title>
 </head>
 <body>
     <header>
-        <div class="logo">Header Logo</div>
-        <div class="nav-links">
-            <ul>
-                <li><a href="#">header link one</a></li>
-                <li><a href="#">header link two</a></li>
-                <li><a href="#">header link three</a></li>
-            </ul>
+        <div class="logo-container">
+            <div class="logo">
+                Header <ul><li><img src="/images/logo-flower.png" alt=""></li></ul>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li><a href="#">link one</a></li>
+                    <li><a href="#">link two</a></li>
+                    <li><a href="#">link three</a></li>
+                </ul>
+            </div>
         </div>
     </header>
+
     <main>
-        <section class="subheading">
-            <div class="subheading-text">
-                <h1>This website is awesome</h1>
-                <p>This website as some subtext that goes gere under the main title. It's a smaller font and the color is lower contrast</p>
-                <button>Sign up</button>
-            </div>
-            <div class="subheading-image">
-                <img src="#" alt="">
-            </div>
-        </section>
-        <section class="info">
-            <h2>Some random information.</h2>
-            <div class="content-images">
-                <div class="one"></div>
-                <div class="two"></div>
-                <div class="three"></div>
-                <div class="four"></div>
-            </div>
-        </section>
-        <section class="quote">
-            <p>Insert inspiring quote.. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, facere? Esse commodi odio ratione tempore nisi deserunt cumque assumenda quibusdam! Unde quasi adipisci laborum eveniet sunt porro reprehenderit itaque voluptate.</p>
-        </section>
-        <section class="call-to-action">
-            <div class="container">
+        <div class="subheading-container">
+            <div class="subheading">
                 <div class="text">
-                    <p>Call to action! It's time!</p>
-                    <p>Sign up for our product by clicking that button right over there!</p>
+                    <h1>This website is awesome</h1>
+                    <p>This website as some subtext that goes gere under the main title. It's a smaller font and the color is lower contrast</p>
+                    <button>Sign up</button>
                 </div>
-                <button>Sign up</button>
+                <div class="placeholder-img">
+                    <img src="/images/big-flower-img.png" alt="big rose flower">
+                </div>
             </div>
-        </section>
+        </div>
+
+        <div class="info-container">
+            <div class="info">
+                <div class="info-heading">Some random information.</div>
+                <div class="img-content">
+                    <figure>
+                        <img src="https://img.freepik.com/premium-vector/flat-design-flower-pixel-art_23-2149255773.jpg?w=740" alt="">
+                        <figcaption>this is some subtext under an illustration or image</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="https://img.freepik.com/premium-vector/flat-design-flower-pixel-art_23-2149255773.jpg?w=740" alt="">
+                        <figcaption>this is some subtext under an illustration or image</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="https://img.freepik.com/premium-vector/flat-design-flower-pixel-art_23-2149255773.jpg?w=740" alt="">
+                        <figcaption>this is some subtext under an illustration or image</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="https://img.freepik.com/premium-vector/flat-design-flower-pixel-art_23-2149255773.jpg?w=740" alt="">
+                        <figcaption>this is some subtext under an illustration or image</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+        <div class="quote-container">
+            <div class="quote">
+                <p id="quote-text">Insert quote here.. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore quidem nisi nam! Recusandae sapiente, ipsum vel cum quaerat quas dolorem temporibus amet similique, iusto impedit quasi. Ducimus totam magni architecto?</p>
+                <div class="author-container">
+                    <p id="author">-Author, God of Writing</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="CAT-container">
+            <div class="CAT-box">
+                <div>
+                    <p id="main-text">Call to action! It's time!</p>
+                    <p id="subtext">Sign up for our product by clicking the button right over there!</p>
+                </div>
+                <div>
+                    <button>Sign up</button>
+                </div>
+            </div>
+        </div>
     </main>
+
     <footer>
+        Copyright &copy; The Odin Project 2022
     </footer>
 </body>
 </html>
